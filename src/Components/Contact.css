@@ -1,0 +1,30 @@
+.contact-section {
+    background: linear-gradient(45deg, #ffafbd, #ffc3a0);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.contact-form {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form .form-control {
+    margin-bottom: 1rem;
+}
+
+.contact-form button {
+    background-color: #6f42c1;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
