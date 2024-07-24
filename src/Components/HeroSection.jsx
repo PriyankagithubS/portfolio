@@ -31,6 +31,7 @@ const HeroSection = () => {
             animate={{ opacity: isVisible ? 1 : 0 }}
             transition={{ duration: 1 }}
         >
+            <h1>Hi,I am Priyanka Shanmuga Sundaram.</h1>
             <h1>Welcome to My Portfolio</h1>
             <p>{displayText}</p>
             <a
