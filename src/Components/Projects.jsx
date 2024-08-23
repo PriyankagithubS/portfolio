@@ -16,6 +16,12 @@ const projects = [
         title: 'Food Delivery App',
         description: "🎨 Dynamic and Colorful Frontend Experience 🌟 Crafted an engaging and visually appealing food delivery app with a lively and intuitive interface. Leveraged React to create a smooth and interactive experience for users to effortlessly order and filter their favorite dishes. Features include an animated cart, category-based item selection, and a sleek, colorful design that enhances the user journey from browsing to checkout.",
         link: 'https://food-order-app-phi-rouge.vercel.app/' // Existing link
+    },
+ {
+        id: 3,
+        title: 'Project Management tool',
+       description: "🚀 Empowering Productivity with a Full-Stack Project Management Tool 🌟 Developed a robust and intuitive project management solution leveraging the MERN stack (MongoDB, Express, React, Node.js) to streamline team collaboration and task organization. With a dynamic, user-friendly interface, it enables users to effortlessly create, track, and manage tasks and projects in real-time. Key features include role-based access control, task prioritization, progress tracking, and interactive dashboards, all wrapped in a sleek, modern design that optimizes productivity and enhances the user experience from login to project completion.",
+     link: 'https://projectmangertoolcapstone.netlify.app/' // Existing link
     }
 
     // Add more projects as needed
