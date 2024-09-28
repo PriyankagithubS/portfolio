@@ -35,7 +35,7 @@ const HeroSection = () => {
             <h1>Welcome to My Portfolio</h1>
             <p>{displayText}</p>
             <a
-                href="\201BM130 PRIYANKA S NEW (6).pdf" // Replace with the actual path to your resume
+                href="\Priyanka Updated (1).pdf" // Replace with the actual path to your resume
                 download
                 className="download-button"
             >

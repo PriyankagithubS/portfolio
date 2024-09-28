@@ -9,19 +9,22 @@ const projects = [
         title: 'Non-invasive Glucometer',
         description: `A Glucometer developed from scratch, integrating sensor technology to detect glucose levels using breath.
         Presented at Smart India Hackathon 2022 (Hardware edition) and L&T Techgium contest.`,
-        link: 'https://github.com/PriyankagithubS/NON-INVASIVE-GLUCOMETER.git' // Add actual link if available
+        link: 'https://github.com/PriyankagithubS/NON-INVASIVE-GLUCOMETER.git' ,// Add actual link if available
+        image:'/diabetes.jpeg'
     },
     {
         id: 2,
         title: 'Food Delivery App',
         description: "🎨 Dynamic and Colorful Frontend Experience 🌟 Crafted an engaging and visually appealing food delivery app with a lively and intuitive interface. Leveraged React to create a smooth and interactive experience for users to effortlessly order and filter their favorite dishes. Features include an animated cart, category-based item selection, and a sleek, colorful design that enhances the user journey from browsing to checkout.",
-        link: 'https://food-order-app-phi-rouge.vercel.app/' // Existing link
+        link: 'https://food-order-app-phi-rouge.vercel.app/', 
+        image:'/foodapp.png'
     },
  {
         id: 3,
         title: 'Project Management tool',
        description: "🚀 Empowering Productivity with a Full-Stack Project Management Tool 🌟 Developed a robust and intuitive project management solution leveraging the MERN stack (MongoDB, Express, React, Node.js) to streamline team collaboration and task organization. With a dynamic, user-friendly interface, it enables users to effortlessly create, track, and manage tasks and projects in real-time. Key features include role-based access control, task prioritization, progress tracking, and interactive dashboards, all wrapped in a sleek, modern design that optimizes productivity and enhances the user experience from login to project completion.",
-     link: 'https://projectmangertoolcapstone.netlify.app/' // Existing link
+     link: 'https://projectmangertoolcapstone.netlify.app/',
+     image:'/project tool.png'
     }
 
     // Add more projects as needed
@@ -56,6 +59,7 @@ const Projects = () => {
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                     >
+                        <img src={project.image} alt={project.title} className="project-image" />
                         <h3 className="project-title">{project.title}</h3>
                         <p className="project-description">{project.description}</p>
                         <a href={project.link} target="_blank" rel="noopener noreferrer">
