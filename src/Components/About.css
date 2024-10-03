@@ -18,7 +18,7 @@
     flex-direction: row;
     align-items: flex-start;
     gap: 2rem;
-    max-width: 1000px; /* Increase if needed */
+    max-width: 1000px;
     width: 100%;
 }
 
@@ -39,11 +39,12 @@
 }
 
 .about-image {
-    max-width: 400px; /* Adjust width as needed */
+    max-width: 400px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    align-self: flex-end; /* Align to bottom of text content */
-}@media (max-width: 1200px) {
+    align-self: flex-end;
+}
+@media (max-width: 1200px) {
     .about-section {
         flex-direction: column;
         gap: 2rem;

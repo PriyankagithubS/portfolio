@@ -1,49 +1,59 @@
 .skills-section {
-    background: linear-gradient(45deg, #ffc3a0, #ffafbd);
+    background: linear-gradient(135deg, #ffc3a0, #ffafbd);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2rem;
+    padding: 3rem;
     width: 100vw;
+    overflow: hidden;
 }
 
 .skills-title {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
     color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .skills-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
+    gap: 2.5rem;
     max-width: 1200px;
     width: 100%;
 }
 
 .skill-card {
     background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    padding: 1rem;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    padding: 1.5rem;
     width: 250px;
     text-align: center;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    position: relative;
+    z-index: 1;
 }
 
 .skill-card:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    z-index: 10;
 }
 
 .skill-name {
-    font-size: 1.5rem;
-    margin: 1rem 0;
+    font-size: 1.75rem;
+    margin: 1.5rem 0;
     color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
 }
 
 .skill-bar {
@@ -52,13 +62,16 @@
     overflow: hidden;
     width: 100%;
     height: 20px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .skill-level {
-    background-color: #ff79c6;
+    background: linear-gradient(90deg, #ff79c6, #ffafbd);
     height: 100%;
     border-radius: 10px;
-}@media (max-width: 1200px) {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 1200px) {
     .about-section {
         flex-direction: column;
         gap: 2rem;

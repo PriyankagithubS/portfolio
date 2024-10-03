@@ -7,8 +7,8 @@ import { SiMysql, SiMongodb, SiExpress } from 'react-icons/si';
 const skills = [
     { id: 1, name: 'JavaScript', level: '80%', icon: <FaJs /> },
     { id: 2, name: 'React', level: '75%', icon: <FaReact /> },
-    { id: 3, name: 'C Programming', level: '90%', icon: <FaJs /> }, // Placeholder icon for C Programming
-    { id: 4, name: 'HTML & CSS', level: '90%', icon: <FaHtml5 /> }, // Use FaHtml5 for HTML & CSS
+    { id: 3, name: 'C Programming', level: '90%', icon: <FaJs /> }, 
+    { id: 4, name: 'HTML & CSS', level: '90%', icon: <FaHtml5 /> },
     { id: 5, name: 'MySQL', level: '80%', icon: <SiMysql /> },
     { id: 6, name: 'MongoDB', level: '80%', icon: <SiMongodb /> },
     { id: 7, name: 'Bootstrap', level: '90%', icon: <FaBootstrap /> },

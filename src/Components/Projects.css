@@ -1,79 +1,92 @@
 .projects-section {
-    background: linear-gradient(45deg, #ff79c6, #ffb6c1);
+    background: linear-gradient(135deg, #ff79c6, #ffb6c1);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2rem;
+    padding: 3rem;
     width: 100vw;
 }
 
 .projects-title {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
     color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
 }
 
 .projects-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
+    gap: 2.5rem;
     max-width: 1200px;
     width: 100%;
 }
 
 .project-card {
     background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    padding: 1rem;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    padding: 1.5rem;
     width: 300px;
     text-align: left;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    position: relative;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    z-index: 10;
 }
 
 .project-card img {
     width: 100%;
     height: 200px;
     object-fit: cover;
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
     margin-bottom: 1rem;
+    transition: transform 0.4s ease;
 }
 
-.project-card:hover {
+.project-card img:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .project-title {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
     color: #333;
+    font-weight: bold;
 }
 
 .project-description {
     font-size: 1rem;
     color: #666;
+    line-height: 1.5;
 }
 
 .project-button {
     display: inline-block;
     margin-top: 1rem;
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 1.5rem;
     background-color: #007bff;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 .project-button:hover {
     background-color: #0056b3;
+    transform: scale(1.05);
 }
 
 /* Media Queries */
