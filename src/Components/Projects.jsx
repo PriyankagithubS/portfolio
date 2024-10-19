@@ -22,7 +22,7 @@ const projects = [
  {
         id: 3,
         title: 'Project Management tool',
-       description: "🚀 Empowering Productivity with a Full-Stack Project Management Tool 🌟 Developed a robust and intuitive project management solution leveraging the MERN stack (MongoDB, Express, React, Node.js) to streamline team collaboration and task organization. With a dynamic, user-friendly interface, it enables users to effortlessly create, track, and manage tasks and projects in real-time. Key features include role-based access control, progress tracking, and interactive dashboards, modern design that optimizes productivity and enhances the user experience from login to project completion. LOGIN CREDENTIALS USERNAME:priyankas.bm20@bitsathy.ac.in PASSWORD:987654321",
+     description: "🚀 Empowering Productivity with a Full-Stack Project Management Tool 🌟 Developed a robust and intuitive project management solution leveraging the MERN stack (MongoDB, Express, React, Node.js) to streamline team collaboration and task organization. With a dynamic, user-friendly interface, it enables users to effortlessly create, track, and manage tasks and projects in real-time. Key features include role-based access control, progress tracking, and interactive dashboards, modern design that optimizes productivity and enhances the user experience from login to project completion. LOGIN CREDENTIALS USERNAME:priyankashan16@gmail.com PASSWORD:123456789",
      link: 'https://projectmangertoolcapstone.netlify.app/',
      image:'/project tool.png'
     }
