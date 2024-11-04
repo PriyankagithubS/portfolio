@@ -6,25 +6,31 @@ import './Projects.css';
 const projects = [
     {
         id: 1,
-        title: 'Non-invasive Glucometer',
-        description: `A Glucometer developed from scratch, integrating sensor technology to detect glucose levels using breath.
-        Presented at Smart India Hackathon 2022 (Hardware edition) and L&T Techgium contest.`,
-        link: 'https://github.com/PriyankagithubS/NON-INVASIVE-GLUCOMETER.git' ,// Add actual link if available
-        image:'/diabetes.jpeg'
+        title: 'Project Management Tool',
+        description: "🚀 Empowering Productivity with a Full-Stack Project Management Tool 🌟 Developed a robust and intuitive project management solution leveraging the MERN stack (MongoDB, Express, React, Node.js) to streamline team collaboration and task organization. With a dynamic, user-friendly interface, it enables users to effortlessly create, track, and manage tasks and projects in real-time. Key features include role-based access control, progress tracking, and interactive dashboards, modern design that optimizes productivity and enhances the user experience from login to project completion. LOGIN CREDENTIALS USERNAME:priyankashan16@gmail.com PASSWORD:123456789",
+        link: 'https://projectmangertoolcapstone.netlify.app/',
+        image: '/project tool.png',
+        githubFrontend: 'https://github.com/PriyankagithubS/capstoneFrontend.git',
+        githubBackend: 'https://github.com/PriyankagithubS/capstoneBackend.git'
     },
     {
         id: 2,
         title: 'Food Delivery App',
         description: "🎨 Dynamic and Colorful Frontend Experience 🌟 Crafted an engaging and visually appealing food delivery app with a lively and intuitive interface. Leveraged React to create a smooth and interactive experience for users to effortlessly order and filter their favorite dishes. Features include an animated cart, category-based item selection, and a sleek, colorful design that enhances the user journey from browsing to checkout.",
-        link: 'https://food-order-app-phi-rouge.vercel.app/', 
-        image:'/foodapp.png'
+        link: 'https://food-order-app-phi-rouge.vercel.app/',
+        image: '/foodapp.png',
+        githubFrontend: 'https://github.com/PriyankagithubS/food-order-app.git',
+        githubBackend: 'https://github.com/username/food-delivery-backend'
     },
- {
+   
+    {
         id: 3,
-        title: 'Project Management tool',
-     description: "🚀 Empowering Productivity with a Full-Stack Project Management Tool 🌟 Developed a robust and intuitive project management solution leveraging the MERN stack (MongoDB, Express, React, Node.js) to streamline team collaboration and task organization. With a dynamic, user-friendly interface, it enables users to effortlessly create, track, and manage tasks and projects in real-time. Key features include role-based access control, progress tracking, and interactive dashboards, modern design that optimizes productivity and enhances the user experience from login to project completion. LOGIN CREDENTIALS USERNAME:priyankashan16@gmail.com PASSWORD:123456789",
-     link: 'https://projectmangertoolcapstone.netlify.app/',
-     image:'/project tool.png'
+        title: 'Appointment Booking App',
+        description: "🚀 Developing innovative web solutions with a passion for clean code and seamless user experiences. Committed to delivering impactful applications that bridge technology and user needs 🌟",
+        link: 'https://doctorappointmentbookingapp.netlify.app/',
+        image: '/appointmentApp.png',
+        githubFrontend: 'https://github.com/PriyankagithubS/appointmentbooking.git',
+        githubBackend: 'https://github.com/PriyankagithubS/appointmentBookingBackend.git'
     }
 
     // Add more projects as needed
@@ -65,6 +71,14 @@ const Projects = () => {
                         <a href={project.link} target="_blank" rel="noopener noreferrer">
                             <button className="project-button">Visit Page</button>
                         </a>
+                        <div className="project-buttons">
+                            <a href={project.githubFrontend} target="_blank" rel="noopener noreferrer">
+                                <button className="project-button">GitHub Frontend</button>
+                            </a>
+                            <a href={project.githubBackend} target="_blank" rel="noopener noreferrer">
+                                <button className="project-button">GitHub Backend</button>
+                            </a>
+                        </div>
                     </motion.div>
                 ))}
             </motion.div>
